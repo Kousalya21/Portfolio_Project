@@ -1,0 +1,458 @@
+html {
+  width: 100%;
+  height: 100%; 
+  scroll-behavior: smooth;
+display: block;
+}
+  
+body {
+  font-family: "Lato", sans-serif;
+   position:fixed;
+  padding: 102px 46px 60px 48px;
+  
+}
+body.ref{
+font-family: "Lato", sans-serif;
+   position:fixed;
+ padding: 37px 0 0 0;
+  
+
+}
+.abouttop {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background: silver;
+  
+}
+
+body.contact{
+  background: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-attachment: fixed;
+font-family: "Lato", sans-serif;
+   position:fixed;
+padding: 4px 387px 49px 398px;
+
+}
+
+body.wrapper{
+  background: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-attachment: fixed;
+  font-family: "Roboto", Rajdhani;
+  width: 80%;
+}
+body.experience{
+      padding: 147px 276px 73px 278px;
+      font-family: "Lato", sans-serif;
+    position: fixed;
+}
+
+*{
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+
+h2 {font-weight: lighter;}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2f3742;
+  
+  padding-top: 20px;
+  
+}
+
+.sidenav img{
+  width:140px;
+  display: block;
+  margin: 20px auto;
+  opacity: 0.7;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.logo {
+  width: 60%;
+  border-radius: 60%;
+}
+
+.container {
+  padding: 16px;
+}
+
+
+.sidenav ul li{
+  padding: 4px;
+  font-weight: bold;
+  background-color: #2f3742;
+
+  
+}
+.sidenav ul li:hover{
+  background:#3046fc;
+  color: #3046fc;
+}
+
+
+.sidenav ul li:hover a{
+  
+  color: #fff;
+}
+
+
+.sidenav a {
+  
+  padding: 6px 20px 6px 0px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+footer.foot{
+  font-size: 0.70em; 
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+p.clr{
+  color: white;
+}
+
+p.clr1{
+  color: blue;
+}
+
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  color: white; 
+  padding-top: 5%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 10px;}
+}
+.btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background:#2c3e50;
+  bottom: 40px;
+  right:50px;
+  
+  text-align: center;
+  line-height: 50px;
+  color: blue;
+  font-size: 22px;
+  border: none;
+  }
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+.wrap{
+  margin: auto;
+  padding-left: -1%;
+  width:100%;
+  margin-top: 4%;
+  padding: -1px 0;
+  
+}
+
+.wrap h1{
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 19px;
+  margin-bottom: 31px;
+  width: 336px;
+  padding: 0px;
+  line-height: 18px;
+  color: #333030;  
+  position: relative;
+  border: ridge;
+}
+
+.team .team_member h3{
+  color: black;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #464646;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 91px;
+  height: 91px;
+  padding: 4px;
+}
+
+/*contact*/
+.cont{
+         width: 558px;
+    height: 521px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 1.5em;
+}
+
+p.cont1{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #486255;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+
+button.btnc{
+  width: 250px;
+  background: #4a7def;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 114px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+}
+
+
+/*experience*/
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.containerexp {
+  padding: 9px 17px;
+  position: relative;
+  background-color: #5f5fc0;
+  width: 51%;
+}
+
+/* The circles on the timeline */
+.containerexp::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #61D4E8;
+  border: 4px solid #2DA1E7;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content1 {
+  padding: 7px 22px;
+  background-color: white;
+  position: relative;
+  border-radius: 16px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .containerexp {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .containerexp::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+
